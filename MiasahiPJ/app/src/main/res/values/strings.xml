@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MiasahiPJ</string>
+
+
+    <!-- ミアサヒ社内プロジェクト -->
+
+    <string name="login_user_name_text">ユーザー名</string>
+    <string name="login_password_text">パスワード</string>
+    <string name="login_forget_password_text">パスワードが忘れました!!</string>
+    <string name="login_login_button">ログイン</string>
+
+
+    <string name="retrieve_password_mail_text">メールアドレス</string>
+    <string name="retrieve_password_return_text">戻る</string>
+    <string name="retrieve_password_submission_text">提出</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_btn1_fragment">Hello Btn1 fragment</string>
+    <string name="hello_btn2_fragment">Hello Btn2 fragment</string>
+    <string name="hello_btn3_fragment">Hello Btn3 fragment</string>
+    <string name="hello_btn4_fragment">Hello Btn4 fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
