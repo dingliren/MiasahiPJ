@@ -14,9 +14,10 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.miasahipj.R;
-import com.example.miasahipj.ui.RetrievePasswordActivity;
 
-
+/**
+ * ログインActivity.
+ */
 public class LoginActivity extends AppCompatActivity {
 
     private final String CLASS_NAME = "LoginActivity";

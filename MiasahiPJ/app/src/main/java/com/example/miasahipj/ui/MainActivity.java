@@ -12,6 +12,9 @@ import androidx.fragment.app.FragmentTransaction;
 
 import com.example.miasahipj.R;
 
+/**
+ * メインActivity
+ */
 public class MainActivity extends AppCompatActivity {
 
     private FragmentManager mFragmentManager;

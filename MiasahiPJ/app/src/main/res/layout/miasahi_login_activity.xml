@@ -17,7 +17,6 @@
             android:src="@mipmap/ic_launcher" />
     </LinearLayout>
 
-
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -38,8 +37,8 @@
                 android:layout_marginStart="50dp"
                 android:layout_marginEnd="50dp"
                 android:layout_weight="1"
-                android:hint="@string/login_user_name_text"
                 android:ems="10"
+                android:hint="@string/login_user_name_text"
                 android:inputType="text" />
         </LinearLayout>
 
@@ -57,8 +56,8 @@
                 android:layout_marginStart="50dp"
                 android:layout_marginEnd="50dp"
                 android:layout_weight="1"
-                android:hint="@string/login_password_text"
                 android:ems="10"
+                android:hint="@string/login_password_text"
                 android:inputType="textPassword" />
         </LinearLayout>
 

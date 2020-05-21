@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -16,29 +15,29 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Btn1"
-            android:onClick="setOnClickBtn1"/>
+            android:onClick="setOnClickBtn1"
+            android:text="月報提出" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Btn2"
-            android:onClick="setOnClickBtn2"/>
+            android:onClick="setOnClickBtn2"
+            android:text="承認" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Btn3"
-            android:onClick="setOnClickBtn3"/>
+            android:onClick="setOnClickBtn3"
+            android:text="Btn3" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Btn4"
-            android:onClick="setOnClickBtn4"/>
+            android:onClick="setOnClickBtn4"
+            android:text="個人情報" />
 
     </LinearLayout>
 
@@ -46,9 +45,7 @@
         android:id="@+id/container_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@id/funcline"/>
-
-
+        android:layout_above="@id/funcline" />
 
 
 </RelativeLayout>

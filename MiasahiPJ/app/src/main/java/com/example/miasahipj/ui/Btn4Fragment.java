@@ -35,8 +35,6 @@ public class Btn4Fragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-
-
         return inflater.inflate(R.layout.fragment_btn4, container, false);
     }
 
@@ -47,7 +45,6 @@ public class Btn4Fragment extends Fragment {
         mFragmentManager = getFragmentManager();
         mProfileUpdateFragment = new ProfileUpdateFragment();
 
-
         mProfileUpdateBtn = getActivity().findViewById(R.id.profile_update_btn);
 
         mProfileUpdateBtn.setOnClickListener(new View.OnClickListener() {
@@ -56,6 +53,7 @@ public class Btn4Fragment extends Fragment {
                 FragmentTransaction fragmentTransaction = mFragmentManager.beginTransaction();
 
                 fragmentTransaction.replace(R.id.container_layout,mProfileUpdateFragment);
+                fragmentTransaction.addToBackStack(null);
                 fragmentTransaction.commit();
             }
         });

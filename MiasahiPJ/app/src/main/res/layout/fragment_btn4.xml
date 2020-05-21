@@ -25,7 +25,6 @@
             android:layout_weight="1"
             android:text="12346789" />
 
-
         <TextView
             android:id="@+id/profile_name_label"
             android:layout_width="0dp"
@@ -308,8 +307,6 @@
     </LinearLayout>
 
 
-
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -356,10 +353,11 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="3000/01/31" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="まで"/>
+            android:text="まで" />
 
 
     </LinearLayout>
@@ -382,10 +380,11 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="3000/01/01" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="まで"/>
+            android:text="まで" />
 
     </LinearLayout>
 

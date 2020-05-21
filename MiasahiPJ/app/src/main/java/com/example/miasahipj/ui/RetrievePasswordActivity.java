@@ -13,7 +13,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.miasahipj.R;
 
-
+/**
+ * パスワード再設定Activity.
+ */
 public class RetrievePasswordActivity extends AppCompatActivity {
 
     private final String CLASS_NAME = "ForgetPasswordActivity";
